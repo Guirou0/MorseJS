@@ -51,9 +51,6 @@ npm run dev
 # Windows
 npm run build:win
 
-# macOS
-npm run build:mac
-
 # Linux
 npm run build:linux
 ```
@@ -61,7 +58,7 @@ npm run build:linux
 ## Uso rapido
 
 1. Conecte o STM32 via USB.
-2. Abra o app e selecione a porta serial (ex.: `/dev/ttyUSB0` ou `COM3`).
+2. Abra o app e selecione a porta serial (ex.: `/dev/ttyACM0` ou `COM3`).
 3. Conecte e envie mensagens em Morse.
 4. Acompanhe o monitor serial para debug e historico.
 
@@ -70,6 +67,4 @@ npm run build:linux
 - **Sem portas listadas no Linux**: verifique as permissoes de grupo e se o cabo/driver esta correto.
 - **Falha ao conectar**: confirme baud rate e se a porta nao esta em uso por outro processo.
 
-## Licenca
 
-Defina a licenca do projeto aqui.
